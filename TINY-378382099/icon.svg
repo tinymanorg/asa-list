@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 256 256" style="enable-background:new 0 0 500 500;" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="231.52" y1="104.915" x2="231.52" y2="360.915" id="gradient-0" spreadMethod="pad">
+      <stop offset="0" style="stop-color: rgb(51, 24, 133);"/>
+      <stop offset="1" style="stop-color: rgb(47, 47, 142);"/>
+    </linearGradient>
+  </defs>
+  <circle style="fill: url(#gradient-0); fill-rule: nonzero; filter: none;" cx="231.52" cy="232.915" r="128" transform="matrix(1, 0, 0, 0.999999, -103.519913, -104.914848)"/>
+  <g transform="matrix(0.466459, 0, 0, 0.466472, 11.149677, 11.615229)" bx:origin="0.499999 0.5">
+    <path fill="#FFF" d="M198.96,289.03L234.99,253l24.02,24.02l51.04-57.52l-8.47-8.53l-42.57,48.03l-24.02-24.02l-45.03,45.03 L198.96,289.03z"/>
+    <g>
+      <path fill="#FFF" d="M384.17,92c13.14,0,23.83,10.69,23.83,23.83v267.35c0,13.14-10.69,23.83-23.83,23.83H116.83 C103.69,407,93,396.31,93,383.17V115.83C93,102.69,103.69,92,116.83,92H384.17 M384.17,78H116.83C95.94,78,79,94.94,79,115.83 v267.35C79,404.06,95.94,421,116.83,421h267.35c20.89,0,37.83-16.94,37.83-37.83V115.83C422,94.94,405.06,78,384.17,78L384.17,78z "/>
+    </g>
+  </g>
+</svg>
