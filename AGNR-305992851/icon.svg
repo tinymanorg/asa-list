@@ -1,0 +1,12 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <line style="pointer-events: auto; stroke: rgb(0, 0, 0); stroke-width: 10px;" x1="92.974" y1="379.099" x2="247.37" y2="84.862"/>
+  <line style="pointer-events: auto; stroke: rgb(0, 0, 0); stroke-width: 10px;" x1="251.381" y1="85.62" x2="389.249" y2="380.654"/>
+  <circle style="pointer-events: auto; fill: rgb(77, 4, 116);" cx="22.422" cy="22.54" r="0.768" transform="matrix(11.253564, 0, 0, 10.505414, -6.607964, -27.292608)"/>
+  <path style="pointer-events: auto; stroke: rgb(0, 0, 0); fill: rgb(28, 7, 164);" transform="matrix(-0.02929, 1.745159, -2.095697, -0.022466, 1924.938477, -1373.818726)" d="M 975.043 773.746 A 26.508 26.508 0 1 1 975.043 800.254 A 24.554 24.554 0 1 0 975.043 773.746 Z" bx:shape="crescent 998 787 26.508 300 0.92 1@1549b6ce"/>
+  <circle style="pointer-events: auto;" cx="22.305" cy="32.242" r="0.683" transform="matrix(11.253564, 0, 0, 10.505414, -4.74526, 4.339952)"/>
+  <circle style="pointer-events: auto; fill: rgba(0, 0, 0, 0.41);" cx="22.305" cy="29.62" r="0.556" transform="matrix(11.253564, 0, 0, 10.505414, -5.388453, -1.147856)"/>
+  <circle style="pointer-events: auto; fill: rgba(0, 0, 0, 0.27);" cx="22.352" cy="27.22" r="0.463" transform="matrix(11.253564, 0, 0, 10.505414, -5.998209, -4.806395)"/>
+  <circle style="pointer-events: auto; fill: rgba(0, 0, 0, 0.31);" cx="22.374" cy="25.066" r="0.372" transform="matrix(11.253564, 0, 0, 10.505414, -6.607966, -9.684446)"/>
+  <path d="M 320.756 101.92 L 329.147 117.05 L 312.365 117.05 L 320.756 101.92 Z" style="fill: rgb(172, 171, 200);" transform="matrix(-0.495973, 0.868338, -0.868338, -0.495973, 505.493439, -141.581192)" bx:shape="triangle 312.365 101.92 16.782 15.13 0.5 0 1@2630e8f6"/>
+  <path d="M 764.005 425.285 m -220 0 a 220 219.892 0 1 0 440 0 a 220 219.892 0 1 0 -440 0 Z M 764.005 425.285 m -204 0 a 204 204 0 0 1 408 0 a 204 204 0 0 1 -408 0 Z" style="fill: rgb(61, 22, 98);" transform="matrix(-0.999668, -0.025774, 0.027332, -0.999628, 996.69812, 700.764343)" bx:shape="ring 764.005 425.285 204 204 220 219.892 1@8d8d6de0"/>
+</svg>
