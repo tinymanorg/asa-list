@@ -1,0 +1,13 @@
+
+<svg viewBox="0 0 256 256" width="256" height="256" xmlns="http://www.w3.org/2000/svg">
+  <line style="pointer-events: auto; stroke: rgb(0, 0, 0); stroke-width: 10px;" x1="48.506" y1="191.625" x2="129.701" y2="47.239"/>
+  <line style="pointer-events: auto; stroke: rgb(0, 0, 0); stroke-width: 10px;" x1="131.811" y1="47.611" x2="204.313" y2="192.388"/>
+  <circle style="pointer-events: auto; fill: rgb(77, 4, 116);" cx="22.422" cy="22.54" r="0.768" transform="matrix(5.918128, 0, 0, 5.15514, -3.863361, -7.796956)"/>
+  <path style="pointer-events: auto; stroke: rgb(0, 0, 0); fill: rgb(28, 7, 164);" transform="matrix(-0.015404, 0.856372, -1.102105, -0.011025, 1011.916199, -668.554443)" d="M 975.043 773.746 A 26.508 26.508 0 1 1 975.043 800.254 A 24.554 24.554 0 1 0 975.043 773.746 Z"/>
+  <circle style="pointer-events: auto;" cx="22.305" cy="32.242" r="0.683" transform="matrix(5.918128, 0, 0, 5.15514, -2.883778, 7.725532)"/>
+  <circle style="pointer-events: auto; fill: rgba(0, 0, 0, 0.41);" cx="22.305" cy="29.62" r="0.556" transform="matrix(5.918128, 0, 0, 5.15514, -3.222033, 5.0326)"/>
+  <circle style="pointer-events: auto; fill: rgba(0, 0, 0, 0.27);" cx="22.352" cy="27.22" r="0.463" transform="matrix(5.918128, 0, 0, 5.15514, -3.542698, 3.237306)"/>
+  <circle style="pointer-events: auto; fill: rgba(0, 0, 0, 0.31);" cx="22.374" cy="25.066" r="0.372" transform="matrix(5.918128, 0, 0, 5.15514, -3.863361, 0.843581)"/>
+  <path d="M 273.685 85.634 L 280.844 98.345 L 266.526 98.345 L 273.685 85.634 Z" style="fill: rgb(172, 171, 200);" transform="matrix(-0.522076, 0.852899, -0.884057, -0.471175, 356.760864, -145.121613)"/>
+  <path d="M 764.005 425.285 m -115.691 0 a 115.691 107.908 0 1 0 231.382 0 a 115.691 107.908 0 1 0 -231.382 0 Z M 764.005 425.285 m -107.277 0 a 107.277 100.11 0 0 1 214.554 0 a 107.277 100.11 0 0 1 -214.554 0 Z" style="fill: rgb(61, 22, 98);" transform="matrix(-0.999711, -0.024051, 0.02929, -0.999585, 879.556152, 574.675171)"/>
+</svg>
