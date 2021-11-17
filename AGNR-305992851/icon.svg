@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 250 250" width="250px" height="250px" xmlns="http://www.w3.org/2000/svg">
+  <line style="pointer-events: auto; stroke: rgb(0, 0, 0); stroke-linejoin: round; stroke-width: 5px;" x1="42.536" y1="197.894" x2="126.852" y2="30.36"/>
+  <line style="pointer-events: auto; stroke: rgb(0, 0, 0); stroke-width: 5px;" x1="129.071" y1="30.78" x2="206.41" y2="196.653"/>
+  <circle style="pointer-events: auto; fill: rgb(77, 4, 116);" cx="22.422" cy="22.54" r="0.768" transform="matrix(6.22605, 0, 0, 5.82392, -13.660763, -31.815733)"/>
+  <path style="pointer-events: auto; stroke: rgb(0, 0, 0); fill: rgb(28, 7, 164);" transform="matrix(-0.016205, 0.967469, -1.159447, -0.012455, 1054.970215, -777.415833)" d="M 975.043 773.746 A 26.508 26.508 0 1 1 975.043 800.254 A 24.554 24.554 0 1 0 975.043 773.746 Z"/>
+  <circle style="pointer-events: auto;" cx="22.305" cy="32.242" r="0.683" transform="matrix(6.22605, 0, 0, 5.82392, -12.63022, -14.279493)"/>
+  <circle style="pointer-events: auto; fill: rgba(0, 0, 0, 0.41);" cx="22.305" cy="29.62" r="0.556" transform="matrix(6.22605, 0, 0, 5.82392, -12.986066, -17.321785)"/>
+  <circle style="pointer-events: auto; fill: rgba(0, 0, 0, 0.27);" cx="22.352" cy="27.22" r="0.463" transform="matrix(6.22605, 0, 0, 5.82392, -13.323414, -19.349981)"/>
+  <circle style="pointer-events: auto; fill: rgba(0, 0, 0, 0.31);" cx="22.374" cy="25.066" r="0.372" transform="matrix(6.22605, 0, 0, 5.82392, -13.660763, -22.054241)"/>
+  <path d="M 188.248 57.048 L 193.172 65.517 L 183.323 65.517 L 188.248 57.048 Z" style="fill: rgb(172, 171, 200);" transform="matrix(-0.495216, 0.86877, -0.867906, -0.496732, 275.554016, -103.528809)"/>
+  <path d="M 764.005 425.285 m -121.716 0 a 121.716 121.902 0 1 0 243.432 0 a 121.716 121.902 0 1 0 -243.432 0 Z M 764.005 425.285 m -112.863 0 a 112.863 113.092 0 0 1 225.726 0 a 112.863 113.092 0 0 1 -225.726 0 Z" style="fill: rgb(61, 22, 98);" transform="matrix(-0.999666, -0.025827, 0.027277, -0.999629, 877.454407, 570.062927)"/>
+</svg>
