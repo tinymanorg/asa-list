@@ -62,17 +62,14 @@ function createTargetDirectoryName(source) {
 
 function copyDirectorySync(source, target) {
   let targetDirName = createTargetDirectoryName(path.basename(source));
-  var files = [];
-
-  // Check if folder needs to be created or integrated
-  var targetFolder = path.join(target, targetDirName);
+  const files = [];
+  const targetFolder = path.join(target, targetDirName);
 
   if (!existsSync(targetFolder)) {
     console.log(`┏━━━ Creating ${targetFolder} ━━━━━━━━━━━━`);
     mkdirSync(targetFolder);
   }
 
-  // Copy source
   if (lstatSync(source).isDirectory()) {
     console.log(
       `
@@ -81,7 +78,7 @@ function copyDirectorySync(source, target) {
 
     files = readdirSync(source);
     files.forEach(function (file) {
-      var curSource = path.join(source, file);
+      const curSource = path.join(source, file);
 
       if (lstatSync(curSource).isDirectory()) {
         copyDirectorySync(curSource, targetFolder);
