@@ -32,6 +32,3 @@ jobs:
 
       - name: Upload to S3 bucket
         run: aws s3 sync ./build/ s3://asa-icons --delete --acl=public-read
-
-      - name: Remove build folder
-        run: node cleanup.mjs
