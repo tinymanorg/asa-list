@@ -27,10 +27,12 @@ try {
 
   for (const file of files) {
     try {
-      const folderFiles = await readdir(path.join(currentDirname, file));
+      if (lstatSync(file).isDirectory()) {
+        const folderFiles = await readdir(path.join(currentDirname, file));
 
-      if (folderFiles.some((folderFile) => folderFile.includes("icon.png"))) {
-        copyDirectorySync(file, buildDirectory);
+        if (folderFiles.some((folderFile) => folderFile.includes("icon.png"))) {
+          copyDirectorySync(file, buildDirectory);
+        }
       }
     } catch (error) {
       console.error(error);
@@ -62,7 +64,7 @@ function createTargetDirectoryName(source) {
 
 function copyDirectorySync(source, target) {
   let targetDirName = createTargetDirectoryName(path.basename(source));
-  const files = [];
+  let files = [];
   const targetFolder = path.join(target, targetDirName);
 
   if (!existsSync(targetFolder)) {
