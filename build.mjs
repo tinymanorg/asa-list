@@ -33,11 +33,13 @@ try {
         copyDirectorySync(file, buildDirectory);
       }
     } catch (error) {
-      // not a directory
+      console.error(error);
+      throw error;
     }
   }
-} catch (err) {
-  console.error(err);
+} catch (error) {
+  console.error(error);
+  throw error;
 }
 
 /**
@@ -52,7 +54,6 @@ function createTargetDirectoryName(source) {
   } else if (
     sourceDirName.toLowerCase() === algoIconsFolderName.toLowerCase()
   ) {
-    // it is ALGO folder
     sourceDirName = "0";
   }
 

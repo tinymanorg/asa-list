@@ -3,7 +3,7 @@ name: upload-to-s3
 on:
   push:
     branches:
-      - feat/gh-action-to-upload-to-s3
+      - main
 
 jobs:
   build:
