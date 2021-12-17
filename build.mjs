@@ -11,6 +11,8 @@ import { fileURLToPath } from "url";
 
 const __filename = fileURLToPath(import.meta.url);
 
+const algoIconsFolderName = "ALGO";
+
 const ASSET_ID_MATCHER = /\d+/;
 const currentDirname = path.dirname(__filename);
 const buildDirectory = path.join(currentDirname, "build");
@@ -47,7 +49,9 @@ function createTargetDirectoryName(source) {
 
   if (sourceDirName.match(ASSET_ID_MATCHER)) {
     sourceDirName = sourceDirName.match(ASSET_ID_MATCHER)[0];
-  } else {
+  } else if (
+    sourceDirName.toLowerCase() === algoIconsFolderName.toLowerCase()
+  ) {
     // it is ALGO folder
     sourceDirName = "0";
   }
