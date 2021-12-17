@@ -1,5 +1,5 @@
 import path from "path";
-import { readdir, mkdir } from "fs/promises";
+import { readdir, mkdir, rm } from "fs/promises";
 import {
   existsSync,
   mkdirSync,
@@ -7,11 +7,19 @@ import {
   readdirSync,
   copyFileSync,
 } from "fs";
-import { buildDirectory, currentDirname } from "./constants.mjs";
+import { fileURLToPath } from "url";
+
+const __filename = fileURLToPath(import.meta.url);
 
 const ASSET_ID_MATCHER = /\d+/;
+const currentDirname = path.dirname(__filename);
+const buildDirectory = path.join(currentDirname, "build");
 
 try {
+  if (existsSync(buildDirectory)) {
+    await rm(buildDirectory, { recursive: true });
+  }
+
   await mkdir(buildDirectory);
   const files = await readdir(currentDirname);
 
