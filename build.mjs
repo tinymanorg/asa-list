@@ -1,5 +1,5 @@
 import path from "path";
-import { readdir, mkdir, rm } from "fs/promises";
+import { readdir, mkdir, rm, appendFile } from "fs/promises";
 import {
   existsSync,
   mkdirSync,
@@ -13,9 +13,11 @@ const __filename = fileURLToPath(import.meta.url);
 
 const algoIconsFolderName = "ALGO";
 
+const ASSET_LOGO_BASE_URL = "https://asa-icons.s3.eu-central-1.amazonaws.com";
 const ASSET_ID_MATCHER = /\d+/;
 const currentDirname = path.dirname(__filename);
 const buildDirectory = path.join(currentDirname, "build");
+const ASSET_LOGO_MAP = new Map();
 
 try {
   if (existsSync(buildDirectory)) {
@@ -31,7 +33,11 @@ try {
         const folderFiles = await readdir(path.join(currentDirname, file));
 
         if (folderFiles.some((folderFile) => folderFile.includes("icon.png"))) {
-          copyDirectorySync(file, buildDirectory);
+          const targetDirName = createTargetDirectoryName(path.basename(file));
+
+          copyDirectorySync(file, buildDirectory, targetDirName);
+
+          ASSET_LOGO_MAP.set(targetDirName, getAssetLogo(targetDirName));
         }
       }
     } catch (error) {
@@ -39,6 +45,15 @@ try {
       throw error;
     }
   }
+
+  // Create JSON file and save it under /build directory
+  console.log(`┏━━━ Creating logos.json ━━━━━━━━━━━━`);
+
+  const assetLogos = Object.fromEntries(ASSET_LOGO_MAP);
+  const assetLogosJSON = JSON.stringify(assetLogos, null, "\t");
+
+  await appendFile(path.join(buildDirectory, "logos.json"), assetLogosJSON);
+  console.log(`━━━━━━━━━━━━ Finished ━━━━━━━━━━━━`);
 } catch (error) {
   console.error(error);
   throw error;
@@ -62,8 +77,7 @@ function createTargetDirectoryName(source) {
   return sourceDirName;
 }
 
-function copyDirectorySync(source, target) {
-  let targetDirName = createTargetDirectoryName(path.basename(source));
+function copyDirectorySync(source, target, targetDirName) {
   let files = [];
   const targetFolder = path.join(target, targetDirName);
 
@@ -99,4 +113,11 @@ function copyDirectorySync(source, target) {
 
     `);
   }
+}
+
+/**
+ * Generates URL for the asset's logo
+ */
+function getAssetLogo(assetId) {
+  return `${ASSET_LOGO_BASE_URL}/${assetId}/icon.png`;
 }
