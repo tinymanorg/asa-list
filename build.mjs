@@ -17,7 +17,7 @@ const ASSET_LOGO_BASE_URL = "https://asa-icons.s3.eu-central-1.amazonaws.com";
 const ASSET_ID_MATCHER = /\d+/;
 const currentDirname = path.dirname(__filename);
 const buildDirectory = path.join(currentDirname, "build");
-const ASSET_LOGO_MAP = new Map();
+const ASSET_ICON_MAP = new Map();
 
 try {
   if (existsSync(buildDirectory)) {
@@ -37,7 +37,7 @@ try {
 
           copyDirectorySync(file, buildDirectory, targetDirName);
 
-          ASSET_LOGO_MAP.set(targetDirName, getAssetLogo(targetDirName));
+          ASSET_ICON_MAP.set(targetDirName, getAssetLogo(targetDirName));
         }
       }
     } catch (error) {
@@ -47,12 +47,12 @@ try {
   }
 
   // Create JSON file and save it under /build directory
-  console.log(`┏━━━ Creating logos.json ━━━━━━━━━━━━`);
+  console.log(`┏━━━ Creating icons.json ━━━━━━━━━━━━`);
 
-  const assetLogos = Object.fromEntries(ASSET_LOGO_MAP);
-  const assetLogosJSON = JSON.stringify(assetLogos, null, "\t");
+  const assetIcons = Object.fromEntries(ASSET_ICON_MAP);
+  const assetIconsJSON = JSON.stringify(assetIcons, null, "\t");
 
-  await appendFile(path.join(buildDirectory, "logos.json"), assetLogosJSON);
+  await appendFile(path.join(buildDirectory, "icons.json"), assetIconsJSON);
   console.log(`━━━━━━━━━━━━ Finished ━━━━━━━━━━━━`);
 } catch (error) {
   console.error(error);
