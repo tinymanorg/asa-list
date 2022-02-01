@@ -1,7 +1,5 @@
 ![asa-list](https://user-images.githubusercontent.com/64005663/151940730-7aec2e05-c4f5-42af-ada3-b35c614826fd.png)
 
-&nbsp;
-
 # Tinyman - Algorand Standard Assets List
 
 We are collecting all the icons of projects built on Algorand in one place where everyone can easily access. In this public repository you can check and add the icons of Algorand Standard Assets. Also you can use dynamic link to use these icons on your projects. This repository is being developed with the contributions of ASA makers.
