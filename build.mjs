@@ -13,8 +13,7 @@ const __filename = fileURLToPath(import.meta.url);
 
 const algoIconsFolderName = "ALGO";
 
-const ASSET_LOGO_BASE_URL = "https://asa-icons.s3.eu-central-1.amazonaws.com";
-const ASSET_ID_MATCHER = /\d+/;
+const ASSET_LOGO_BASE_URL = "https://asa-list.tinyman.org";
 const currentDirname = path.dirname(__filename);
 const buildDirectory = path.join(currentDirname, "build");
 const ASSET_ICON_MAP = new Map();
@@ -64,17 +63,17 @@ try {
  * @returns Directory name that includes only asset ids
  */
 function createTargetDirectoryName(source) {
-  let sourceDirName = source;
+  // If there is a match, the last capturing group will always be the asset id
+  const idMatchResult = source.match(/(.*)-(\d+)/);
+  let targetDirName = source;
 
-  if (sourceDirName.match(ASSET_ID_MATCHER)) {
-    sourceDirName = sourceDirName.match(ASSET_ID_MATCHER)[0];
-  } else if (
-    sourceDirName.toLowerCase() === algoIconsFolderName.toLowerCase()
-  ) {
-    sourceDirName = "0";
+  if (idMatchResult?.length) {
+    targetDirName = idMatchResult[idMatchResult.length - 1];
+  } else if (source.toLowerCase() === algoIconsFolderName.toLowerCase()) {
+    targetDirName = "0";
   }
 
-  return sourceDirName;
+  return targetDirName;
 }
 
 function copyDirectorySync(source, target, targetDirName) {

@@ -32,9 +32,9 @@ If you think you have met all the criteria and your PR has not been accepted, yo
 
 You can use all ASA icons here in your projects dynamically. Each time the main branch is updated, the icons will be moved to the server. The following URLs can be used to access a project's icon.
 
- - `https://asa-icons.s3.eu-central-1.amazonaws.com/` **`asset_id`** `/icon.png`
- - `https://asa-icons.s3.eu-central-1.amazonaws.com/` **`asset_id`** `/icon.svg`
+ - `https://asa-list.tinyman.org/` **`asset_id`** `/icon.png`
+ - `https://asa-list.tinyman.org/` **`asset_id`** `/icon.svg`
 
 For example, we want to access the icon of USDc.  USDc's asset ID is 31566704. It can be accessed via this URL.
 
-https://asa-icons.s3.eu-central-1.amazonaws.com/31566704/icon.png
+https://asa-list.tinyman.org/31566704/icon.png
