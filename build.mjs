@@ -13,7 +13,7 @@ const __filename = fileURLToPath(import.meta.url);
 
 const algoIconsFolderName = "ALGO";
 
-const ASSET_LOGO_BASE_URL = "https://asa-icons.s3.eu-central-1.amazonaws.com";
+const ASSET_LOGO_BASE_URL = "https://asa-list.tinyman.org";
 const ASSET_ID_MATCHER = /\d+/;
 const currentDirname = path.dirname(__filename);
 const buildDirectory = path.join(currentDirname, "build");
