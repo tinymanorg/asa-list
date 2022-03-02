@@ -85,7 +85,7 @@ try {
   Promise.all(assetIDs.map(getAssetInformationById)).then(async (assetData) => {
     assetData.forEach((asset) => {
       ASSET_MAP.set(asset.id, asset);
-      ASSET_ICON_MAP.set(asset.id, asset.logo);
+      ASSET_ICON_MAP.set(asset.id, asset.logo.png);
     });
 
     // Create icons.json file and save it under /build directory
@@ -169,8 +169,14 @@ function copyDirectorySync(source, target, targetDirName) {
 /**
  * Generates URL for the asset's logo
  */
-function getAssetLogo(assetId) {
-  return `${ASSET_LOGO_BASE_URL}/assets/${assetId}/icon.png`;
+function getAssetLogo(assetId, type = "png") {
+  let logo = `${ASSET_LOGO_BASE_URL}/assets/${assetId}/icon.png`;
+
+  if (type === "svg") {
+    logo = `${ASSET_LOGO_BASE_URL}/assets/${assetId}/icon.svg`;
+  }
+
+  return logo;
 }
 
 /**
@@ -187,7 +193,7 @@ async function getAssetInformationById(id) {
         decimals: 6,
         url: "https://algorand.org",
         total_amount: "6615503326932151",
-        logo: getAssetLogo(id),
+        logo: { png: getAssetLogo(id), svg: getAssetLogo(id, "svg") },
         deleted: false,
       };
     }
@@ -202,7 +208,7 @@ async function getAssetInformationById(id) {
       unit_name: asset.params["unit-name"] || "",
       url: "",
       total_amount: String(asset.params.total),
-      logo: getAssetLogo(id),
+      logo: { png: getAssetLogo(id), svg: getAssetLogo(id, "svg") },
       deleted: asset.deleted,
     };
   } catch (error) {
