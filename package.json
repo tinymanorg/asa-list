@@ -1,0 +1,22 @@
+{
+  "name": "asa-list",
+  "version": "1.0.0",
+  "description": "Tinyman - Algorand Standard Assets List",
+  "main": "build.mjs",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tinymanorg/asa-list.git"
+  },
+  "author": "Tinyman Core Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tinymanorg/asa-list/issues"
+  },
+  "homepage": "https://github.com/tinymanorg/asa-list#readme",
+  "devDependencies": {
+    "algosdk": "^1.13.1"
+  }
+}
