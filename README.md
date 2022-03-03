@@ -20,7 +20,7 @@ If you have any problems, you can [join Tinyman Discord](https://discord.com/inv
     -   It would be better if your icons have a background. Icons consisting of pure-black or pure-white elements can cause problems in light mode and dark mode applications.
 -   Icon file names should be **`icon.png`** and **`icon.svg`**.
     -   File names are **case-sensitive**. Icon.png or ICON.png will not be accepted.
--   Icon files should be located inside of a folder in the repository. This folder's name should be **`unit_name-asset_id`**, e.g. *"USDC-31566704"* without adding any space.
+-   Icon files should be located inside of a folder in the repository under `assets/` directory. This folder's name should be **`unit_name-asset_id`**, e.g. *"USDC-31566704"* without adding any space.
     -   **Unit names are case sensitive.** Make sure you are typing the exact unit name, paying attention to case sensitivity.
 -   If you think you paid attention to all these in your commit, create a pull request. Pull requests should be into `review` branch. When your PR is accepted, it will be merged with the main branch along with the other icons. Empty PRs and icons sent by adding comments will not be accepted.
 
@@ -32,9 +32,9 @@ If you think you have met all the criteria and your PR has not been accepted, yo
 
 You can use all ASA icons here in your projects dynamically. Each time the main branch is updated, the icons will be moved to the server. The following URLs can be used to access a project's icon.
 
- - `https://asa-icons.s3.eu-central-1.amazonaws.com/` **`asset_id`** `/icon.png`
- - `https://asa-icons.s3.eu-central-1.amazonaws.com/` **`asset_id`** `/icon.svg`
+ - `https://asa-list.tinyman.org/assets/` **`asset_id`** `/icon.png`
+ - `https://asa-list.tinyman.org/assets/` **`asset_id`** `/icon.svg`
 
 For example, we want to access the icon of USDc.  USDc's asset ID is 31566704. It can be accessed via this URL.
 
-https://asa-icons.s3.eu-central-1.amazonaws.com/31566704/icon.png
+https://asa-list.tinyman.org/assets/31566704/icon.png
