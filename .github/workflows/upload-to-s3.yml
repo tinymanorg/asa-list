@@ -34,4 +34,4 @@ jobs:
         run: INDEXER_TOKEN=${{ secrets.INDEXER_TOKEN }} npm run build
 
       - name: Upload to S3 bucket
-        run: aws s3 sync ./build/ s3://asa-icons --delete --acl=public-read
+        run: aws s3 sync ./build/ s3://asa-icons --acl=public-read
