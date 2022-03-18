@@ -27,8 +27,11 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: eu-central-1
 
+      - name: Install dependencies
+        run: npm ci
+
       - name: Prepare build folder
-        run: node build.mjs
+        run: INDEXER_TOKEN=${{ secrets.INDEXER_TOKEN }} npm run build
 
       - name: Upload to S3 bucket
-        run: aws s3 sync ./build/ s3://asa-icons --delete --acl=public-read
+        run: aws s3 sync ./build/ s3://asa-icons --acl=public-read
