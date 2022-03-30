@@ -38,3 +38,7 @@ You can use all ASA icons here in your projects dynamically. Each time the main 
 For example, we want to access the icon of USDc.  USDc's asset ID is 31566704. It can be accessed via this URL.
 
 https://asa-list.tinyman.org/assets/31566704/icon.png
+
+The main branch is generating a JSON file every time it's updated. This file is a complete list of available icons with their information of `asset_id`, `asset_name`, `unit_name`, `decimals`, `URL`, `total_amount`,  `PNG` and `SVG` URLs. You can access this file via the URL at the below.
+
+ - `https://asa-list.tinyman.org/assets.json`
