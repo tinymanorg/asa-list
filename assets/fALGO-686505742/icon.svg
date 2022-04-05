@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256px" height="256px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 4</title>
+    <defs>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#1D9DD8" offset="0%"></stop>
+            <stop stop-color="#0D73CB" offset="100%"></stop>
+        </linearGradient>
+        <filter id="filter-2">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-4">
+            <circle id="Oval" fill="url(#linearGradient-1)" cx="128" cy="128" r="128"></circle>
+            <g id="Group" transform="translate(18.151171, 17.466221)">
+                <circle id="Oval" fill="#000000" cx="110.619398" cy="110.619398" r="110.619398"></circle>
+                <g filter="url(#filter-2)" id="frALGO">
+                    <g transform="translate(37.843478, 31.850167)">
+                        <polygon id="Path" fill="#000000" fill-rule="nonzero" points="24.0274453 138.531104 44.1351562 103.830686 64.2428671 69.2655518 84.2148297 34.5651338 87.5236948 29.0692109 88.9999582 34.5651338 95.1255977 57.4112678 88.2703102 69.2655518 68.1625993 103.830686 48.1736649 138.531104 72.2011081 138.531104 92.3088233 103.830686 102.727501 85.8716995 107.631406 103.830686 116.947129 138.531104 138.531104 138.531104 129.21538 103.830686 119.899656 69.2655518 117.43922 60.3536988 132.388497 34.5651338 110.566961 34.5651338 109.837317 32.0116419 102.235414 3.66958504 101.251237 0 80.2950974 0 79.803011 0.727154092 60.1873865 34.5651338 40.0966431 69.2655518 20.107713 103.830686 0 138.531104"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
