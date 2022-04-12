@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256px" height="256px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>fgALGO</title>
+    <defs>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#1D9DD8" offset="0%"></stop>
+            <stop stop-color="#0D73CB" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="128.159303" cy="127.681394" r="119.079029"></circle>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-4">
+            <stop stop-color="#1D9DD8" offset="0%"></stop>
+            <stop stop-color="#0D74CB" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="fgALGO">
+            <circle id="Oval" fill="url(#linearGradient-1)" cx="128" cy="128" r="128"></circle>
+            <mask id="mask-3" fill="white">
+                <use xlink:href="#path-2"></use>
+            </mask>
+            <use id="Oval" fill="#000000" xlink:href="#path-2"></use>
+            <polygon id="Path" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-3)" points="63.2601728 196.261357 88.0708802 153.444851 112.881588 110.795271 137.524797 67.9787648 141.607573 61.1973994 143.42912 67.9787648 150.987486 96.1683857 142.528814 110.795271 117.718107 153.444851 93.0539566 196.261357 122.701183 196.261357 147.511896 153.444851 160.3674 131.285434 166.41828 153.444851 177.912861 196.261357 204.545115 196.261357 193.050535 153.444851 181.555955 110.795271 178.520047 99.7990225 196.965813 67.9787648 170.040433 67.9787648 169.140133 64.8280362 159.760219 29.8570498 158.545853 25.3291848 132.688277 25.3291848 132.081097 26.2264131 107.87757 67.9787648 83.0877985 110.795271 58.4236535 153.444851 33.6129434 196.261357"></polygon>
+            <circle id="Oval" fill="url(#linearGradient-4)" mask="url(#mask-3)" cx="192.199129" cy="191.72122" r="55.0392035"></circle>
+            <text id="3" mask="url(#mask-3)" font-family="Poppins-Bold, Poppins" font-size="103.546982" font-weight="bold" letter-spacing="2.07093964" fill="#FFFFFF">
+                <tspan x="154.504045" y="219.874922">3</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
