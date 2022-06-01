@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="256"
+   height="256"
+   viewBox="0 0 256 256"
+   fill="none"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="icon.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   inkscape:export-filename="C:\Users\FLMAN\Desktop\h\icon.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs12">
+    <linearGradient
+       id="linearGradient4079"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#d45500;stop-opacity:1;"
+         offset="0"
+         id="stop4077" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="namedview10"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="1.138"
+     inkscape:cx="-6.5905098"
+     inkscape:cy="112.03867"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg8" />
+  <circle
+     cx="128"
+     cy="128"
+     r="128"
+     fill="#2F3130"
+     id="circle2"
+     style="fill:#00ffff;fill-opacity:1" />
+  <path
+     d="M 61.557015,129.98021 C 61.184973,128.36561 78.3431,55 80,55 h 19 c 1.657,0 3,1.3431 3,3 v 32 c 0,3.866 3.134,52.98058 7,52.98058 h 38 c 3.866,0 7,-49.11458 7,-52.98058 V 58 c 0,-1.6569 1.343,-3 3,-3 h 19 c 1.657,0 17.19112,74.85152 17.19112,74.85152 L 179,197 c -0.34262,1.62119 -1.343,3 -3,3 h -19 c -1.657,0 -2.79003,-1.35636 -3,-3 l -6.83495,-53.50485 C 146.67517,139.66031 150.866,125 147,125 h -38 c -3.866,0 0.32205,14.34927 -0.16505,18.18447 L 102,197 c -0.20877,1.6438 -1.343,3 -3,3 H 80 c -1.6569,0 -2.627936,-1.38531 -3,-3 z"
+     fill="#ffffff"
+     id="path6"
+     sodipodi:nodetypes="ssssssssssscsssssssssssss"
+     style="fill:#800080;fill-opacity:0.74698794" />
+</svg>
