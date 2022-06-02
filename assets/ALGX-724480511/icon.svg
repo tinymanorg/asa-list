@@ -1,1 +1,4 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024"><defs><style>.cls-1{fill:#1a202c;}.cls-2{fill:#f2f2f2;}</style></defs><circle class="cls-1" cx="512" cy="512" r="512"/><path class="cls-2" d="M405.37,613.34,366,691H280.19L512,227.36,666.74,536.83H579.81L512,400.64,443.62,536.83ZM743.81,691H657.47l-38.25-77.08H705Z"/></svg>
+<svg width="2640" height="2640" viewBox="0 0 2640 2640" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="1320" cy="1320" r="1320" fill="#1A202C"/>
+<path d="M1107.6 1381.2L1320 958.2L1530.6 1381.2H1800.6L1320 420L600 1860H866.4L988.8 1618.8L1107.6 1381.2ZM1919.4 1620.6H1653L1771.8 1860H2040L1919.4 1620.6Z" fill="#F5F5F5"/>
+</svg>
