@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="251px" height="250px" viewBox="0 0 251 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group Copy 2</title>
+    <defs>
+        <linearGradient x1="88.2360864%" y1="17.8348239%" x2="12.1545968%" y2="78.9930532%" id="linearGradient-1">
+            <stop stop-color="#1D9DD8" offset="0%"></stop>
+            <stop stop-color="#0E74CC" offset="100%"></stop>
+        </linearGradient>
+        <filter id="filter-2">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-Copy-2" transform="translate(0.874046, 0.000000)">
+            <circle id="Oval" fill="url(#linearGradient-1)" cx="125" cy="125" r="125"></circle>
+            <g filter="url(#filter-2)" id="frALGO">
+                <g transform="translate(53.675034, 52.921701)">
+                    <polygon id="Path" fill="#000000" fill-rule="nonzero" points="21.9838038 126.748415 40.3812641 94.9994222 58.7787244 63.3742074 77.0519824 31.6252148 80.0794137 26.5967448 81.4301144 31.6252148 87.0347408 52.5281831 80.7625262 63.3742074 62.3650659 94.9994222 44.0762796 126.748415 66.0600815 126.748415 84.4575457 94.9994222 93.990068 78.567928 98.476874 94.9994222 107.000254 126.748415 126.748415 126.748415 118.225035 94.9994222 109.701655 63.3742074 107.45049 55.2203472 121.128264 31.6252148 101.162747 31.6252148 100.495163 29.2889088 93.5398357 3.35747044 92.6393673 0 73.4656408 0 73.0154086 0.66530639 55.0681805 31.6252148 36.6862446 63.3742074 18.3974623 94.9994222 0 126.748415"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
