@@ -6,8 +6,6 @@ We are collecting all the icons of projects built on Algorand in one place where
 
 If you have any problems, you can [join Tinyman Discord](https://discord.com/invite/wvHnAdmEv6) and ask your questions about the project in #asa-list channel.
 
-&nbsp;
-
 ## Adding your icon
 
 -   First of all, the asset icons should be properly updated for the repository. The following rules must be followed for icons.
