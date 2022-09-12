@@ -1,4 +1,4 @@
-![asa-list](https://user-images.githubusercontent.com/64005663/151940730-7aec2e05-c4f5-42af-ada3-b35c614826fd.png)
+![image-6](https://user-images.githubusercontent.com/106821140/189665032-8b9fc2dd-ea28-494f-bd5a-ec51d0f76f24.png)
 
 # Tinyman - Algorand Standard Assets List
 
