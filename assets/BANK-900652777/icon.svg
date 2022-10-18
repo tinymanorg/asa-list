@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="128" y1="127.414" x2="128" y2="255.053" id="gradient-0" gradientTransform="matrix(0.999744, -0.022643, 0.025642, 1.132155, -6.507226, -30.808105)">
+      <stop offset="0" style="stop-color: rgb(115, 113, 255);"/>
+      <stop offset="1" style="stop-color: rgb(199, 197, 254);"/>
+    </linearGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="128.05" y1="84.963" x2="128.05" y2="169.839" id="gradient-1">
+      <stop offset="0" style="stop-color: rgb(200, 197, 254); stop-opacity: 0.85;"/>
+      <stop offset="1" style="stop-opacity: 0; stop-color: rgb(200, 199, 249);"/>
+    </linearGradient>
+  </defs>
+  <rect x="43.3" y="84.963" width="169.5" height="84.876" style="stroke: rgb(0, 0, 0); stroke-width: 0px; fill: url(#gradient-1);"/>
+  <rect x="37.5" y="106.59" width="60" height="60" style="stroke: rgb(0, 0, 0); stroke-width: 0px; fill: rgb(102, 99, 255);" transform="matrix(0.707107, 0.707107, -0.707107, 0.707107, 134.480438, 26.112953)" bx:origin="0 1"/>
+  <rect x="37.5" y="106.59" width="60" height="60" style="stroke: rgb(0, 0, 0); stroke-width: 0px; fill: rgb(102, 99, 255);" transform="matrix(0.707107, 0.707107, -0.707107, 0.707107, 219.280441, 26.112953)" bx:origin="0 1"/>
+  <path d="M 170.426 212.626 L 128 255.053 L 85.574 212.626 L 86.117 212.083 L 86.117 127.414 L 128.278 168.723 L 169.926 127.917 L 169.926 212.126 Z" style="stroke: rgb(0, 0, 0); stroke-width: 0px; fill: url(#gradient-0);"/>
+  <path d="M 85.626 43.2 L 85.713 43.287 L 128 1 L 170.313 43.313 L 170.426 43.2 L 212.853 85.626 L 170.426 128.053 L 128.113 85.739 L 128 85.853 L 127.913 85.766 L 85.626 128.053 L 43.2 85.626 Z" style="paint-order: stroke; stroke-width: 0px; stroke: rgb(102, 99, 255); fill: rgb(102, 99, 255);"/>
+</svg>
