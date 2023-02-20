@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="256"
+   height="256"
+   viewBox="0 0 67.733331 67.733331"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="icon.svg"
+   inkscape:export-filename="D:\User Files\Desktop\Coinlogo's\One\tinyman\icon.png"
+   inkscape:export-xdpi="25.4"
+   inkscape:export-ydpi="25.4"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="6.2217172"
+     inkscape:cx="122.47423"
+     inkscape:cy="142.08296"
+     inkscape:window-width="3818"
+     inkscape:window-height="2066"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1"
+     units="px" />
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="offset"
+       id="path-effect29135"
+       is_visible="true"
+       lpeversion="1"
+       linejoin_type="miter"
+       unit="mm"
+       offset="1"
+       miter_limit="4"
+       attempt_force_join="false"
+       update_on_knot_move="true" />
+    <rect
+       x="61.719296"
+       y="46.289471"
+       width="2129.3157"
+       height="2134.459"
+       id="rect24947" />
+    <rect
+       x="653.19586"
+       y="473.18127"
+       width="1080.0876"
+       height="1249.8157"
+       id="rect20857" />
+    <rect
+       x="246.87718"
+       y="159.44151"
+       width="1908.1549"
+       height="1949.3011"
+       id="rect3136" />
+  </defs>
+  <g
+     inkscape:label="Laag 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline">
+    <path
+       style="fill:#ffcc00;stroke:#ffffff;stroke-width:0.295167"
+       id="path15053"
+       cx="300.91522"
+       cy="301.0463"
+       rx="289.18011"
+       ry="289.84036"
+       d="" />
+    <circle
+       style="fill:#ffb300;fill-opacity:1;stroke:#505050;stroke-width:0.135691"
+       id="path1283"
+       cx="33.834625"
+       cy="33.797901"
+       r="32.980671" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Laag 3"
+     style="display:inline">
+    <rect
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:0.0298344"
+       id="rect32816"
+       width="19.027369"
+       height="5.5240746"
+       x="25.93202"
+       y="31.623898" />
+    <rect
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:0.0298344"
+       id="rect32816-9"
+       width="19.027369"
+       height="5.5240746"
+       x="26.051353"
+       y="40.830654" />
+    <ellipse
+       style="fill:none;stroke:#aa8800;stroke-width:1.75823"
+       id="path33139"
+       cx="33.935852"
+       cy="33.874809"
+       rx="30.272284"
+       ry="30.272287" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Laag 2"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text20855"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1600px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect20857)"><tspan
+         x="653.19531"
+         y="3138.6211"
+         id="tspan855">1</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.03578287,0,0,0.03578287,9.9470477,-4.8450973)"
+       id="text24945"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1866.67px;line-height:1.25;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect24947);fill:#ffffff"><tspan
+         x="61.71875"
+         y="1728.4542"
+         id="tspan857">1</tspan></text>
+  </g>
+</svg>
