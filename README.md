@@ -25,7 +25,13 @@ If you have any problems, you can [join Tinyman Discord](https://discord.com/inv
 If you think you have met all the criteria and your PR has not been accepted, you can [join the Tinyman Discord](https://discord.gg/wvHnAdmEv6) and ask your questions in #asa-list channel.
 
 &nbsp;
+## Verifying your pull request
+To add or update any icon in asa-list, you should prove your ownership of the ASA. PRs without this verification process will not be merged. Please do the following steps:
+1.  Create the pull request
+2.  Make a transaction from the ASA’s creator wallet. The transaction should be a 0 ALGO transfer to itself, including the pull request’s link in its text section.
+3.  Comment with the transaction ID under the pull request.
 
+&nbsp;
 ## Using in your project
 
 You can use all ASA icons here in your projects dynamically. Each time the main branch is updated, the icons will be moved to the server. The following URLs can be used to access a project's icon.
