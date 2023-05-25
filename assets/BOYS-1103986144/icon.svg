@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="67.73333mm"
+   height="67.73333mm"
+   viewBox="0 0 67.733329 67.733329"
+   version="1.1"
+   id="svg135"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs132" />
+  <g
+     id="layer1"
+     transform="translate(-68.069771,-97.643913)">
+    <rect
+       style="display:none;fill:#b3b3b3;stroke-width:2.56991;stroke-linecap:round;stroke-linejoin:round"
+       id="rect308"
+       width="67.73333"
+       height="67.73333"
+       x="68.069771"
+       y="97.643913" />
+    <ellipse
+       style="display:none;fill:#ececec;stroke-width:6.48928;stroke-linecap:round;stroke-linejoin:round"
+       id="path523"
+       cx="102.11327"
+       cy="131.70163"
+       rx="33.147877"
+       ry="33.370346" />
+    <path
+       id="path691"
+       style="display:inline;fill:#ff0000;stroke-width:8.06664;stroke-linecap:round;stroke-linejoin:round"
+       d="m 135.20307,131.19806 c -0.0145,11.92095 -9.85536,11.9971 -33.20004,11.9971 -23.344674,0 -32.909219,0.50585 -33.200018,-11.33971 -0.290352,-11.82733 9.207522,-12.98318 32.552208,-12.98318 23.34471,0 33.86246,0.16164 33.84785,12.32579 z" />
+    <path
+       id="path842"
+       style="display:inline;opacity:0.76;fill:#e6e6e6;stroke-width:5.5;stroke-linecap:round;stroke-linejoin:round"
+       d="m 81.879104,122.75256 c 0.785855,2.52555 -5.524725,1.1222 -7.301762,3.10617 -1.436556,1.70002 -0.295719,7.23597 -2.633623,6.6979 -2.575364,-0.59272 -1.133835,-5.92383 0.616124,-7.9041 2.099349,-2.37564 8.377327,-4.92713 9.319261,-1.89997 z" />
+    <path
+       id="path985"
+       style="display:inline;opacity:0.76;fill:#4d4d4d;stroke-width:5.58368;stroke-linecap:round;stroke-linejoin:round"
+       d="m 101.61272,130.9508 c 0,6.71159 0.62342,12.1524 0.50055,12.15237 -0.12287,3e-5 -1.11235,-5.32613 -1.11235,-12.03773 0,-6.71159 0.98948,-12.26704 1.11235,-12.26701 0.12287,-3e-5 -0.50055,5.44078 -0.50055,12.15237 z" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.9389px;font-family:'Metal Gear';-inkscape-font-specification:'Metal Gear, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:1;fill:#e6e6e6;stroke-width:5.5;stroke-linecap:round;stroke-linejoin:round"
+       x="80.923088"
+       y="137.15213"
+       id="text1042"><tspan
+         id="tspan1040"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.1111px;font-family:'Metal Gear';-inkscape-font-specification:'Metal Gear, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#e6e6e6;stroke-width:5.5"
+         x="80.923088"
+         y="137.15213">bOYS</tspan></text>
+  </g>
+</svg>
