@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main
+  schedule:
+    # Schedule to run at midnight UTC
+    - cron: '0 0 * * *'
 
 permissions:
   id-token: write # This is required for requesting the JWT
@@ -27,6 +30,17 @@ jobs:
 
       - name: Prepare build folder
         run: INDEXER_TOKEN=${{ secrets.INDEXER_TOKEN }} npm run build
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install Python dependencies
+        run: pip install requests
+
+      - name: Fetch verified asset icons (verified by Pera)
+        run: python fetch_verified_asa_icons.py
 
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v2
