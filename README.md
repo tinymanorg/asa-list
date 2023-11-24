@@ -10,7 +10,7 @@ We have also integrated the ASA List to Pera Verification System so that missing
     - This event is scheduled and will take place every midnight at UTC.
     - You can see the logic and running workflows here: https://github.com/tinymanorg/asa-list/actions
  
-Tinyman team continues to maintain the ASA List repo but we will update it less frequently after this integration. Therefore, we highly recommend that all ASA creators apply for the Pera Verification System so that their icons can be listed fast moving.
+Tinyman team continues to maintain the ASA List repo but we will update it less frequently after this integration. Therefore, we highly recommend that all ASA creators apply for the Pera Verification System so that their icons can be listed quickly.
 
 Please follow the requirements listed below for uploading an icon for your ASA. If you have any problems, you can [join Tinyman Discord](https://discord.com/invite/wvHnAdmEv6) and ask your questions about the project in #asa-list channel.
 
