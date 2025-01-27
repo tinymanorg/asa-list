@@ -4,6 +4,13 @@ on:
   push:
     branches:
       - main
+  schedule:
+    # Schedule to run at midnight UTC
+    - cron: '0 0 * * *'
+
+permissions:
+  id-token: write # This is required for requesting the JWT
+  contents: read # This is required for actions/checkout
 
 jobs:
   build:
@@ -11,27 +18,36 @@ jobs:
 
     steps:
       - name: Setup repo
-        uses: actions/checkout@v2
-        with:
-          persist-credentials: false
+        uses: actions/checkout@v3
 
       - name: Setup Node.js
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3
         with:
-          node-version: 14.17.0
-
-      - name: Configure AWS Credentials
-        uses: aws-actions/configure-aws-credentials@v1
-        with:
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws-region: eu-central-1
+          node-version: 18.13.0
 
       - name: Install dependencies
         run: npm ci
 
       - name: Prepare build folder
         run: INDEXER_TOKEN=${{ secrets.INDEXER_TOKEN }} npm run build
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install Python dependencies
+        run: pip install requests
+
+      - name: Fetch verified asset icons (verified by Pera)
+        run: python fetch_verified_asa_icons.py
+
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v2
+        with:
+          role-to-assume: arn:aws:iam::023337100590:role/tinyman-asa-list--github-oidc
+          role-session-name: tinyman-asa-list--github-oidc
+          aws-region: eu-central-1
 
       - name: Upload to S3 bucket
         run: aws s3 sync ./build/ s3://asa-icons --acl=public-read
