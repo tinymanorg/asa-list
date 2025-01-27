@@ -17,7 +17,7 @@ if (!process.env.INDEXER_TOKEN) {
 const ALGOD_CREDENTIALS = {
   algodev: {
     indexerToken: process.env.INDEXER_TOKEN,
-    indexerServer: "https://indexer-mainnet.aws.algodev.network/",
+    indexerServer: "https://b-indexer-mainnet.chain.perawallet.app/",
     port: 443,
   },
 };
@@ -82,29 +82,29 @@ try {
 
   console.log(`┏━━━ Fetching asset data from the indexer ━━━━━━━━━━━━`);
 
-  Promise.all(assetIDs.map(getAssetInformationById)).then(async (assetData) => {
-    assetData.forEach((asset) => {
-      ASSET_MAP.set(asset.id, asset);
-      ASSET_ICON_MAP.set(asset.id, asset.logo.png);
-    });
+  const assetData = await Promise.all(assetIDs.map(getAssetInformationById));
 
-    // Create icons.json file and save it under /build directory
-    console.log(`\n┏━━━ Creating icons.json ━━━━━━━━━━━━`);
-    const assetIcons = Object.fromEntries(ASSET_ICON_MAP);
-    const assetIconsJSON = JSON.stringify(assetIcons, null, "\t");
-
-    await appendFile(path.join(buildDirectory, "icons.json"), assetIconsJSON);
-    console.log(`━━━━━━━━━━━━ Created icons.json ━━━━━━━━━━━━\n`);
-
-    // Create assets.json file and save it under /build directory
-    console.log(`┏━━━ Creating assets.json ━━━━━━━━━━━━`);
-    const assets = Object.fromEntries(ASSET_MAP);
-    const assetsJSON = JSON.stringify(assets, null, "\t");
-
-    await appendFile(path.join(buildDirectory, "assets.json"), assetsJSON);
-
-    console.log(`━━━━━━━━━━━━ Finished ━━━━━━━━━━━━`);
+  assetData.forEach((asset) => {
+    ASSET_MAP.set(asset.id, asset);
+    ASSET_ICON_MAP.set(asset.id, asset.logo.png);
   });
+
+  // Create icons.json file and save it under /build directory
+  console.log(`\n┏━━━ Creating icons.json ━━━━━━━━━━━━`);
+  const assetIcons = Object.fromEntries(ASSET_ICON_MAP);
+  const assetIconsJSON = JSON.stringify(assetIcons, null, "\t");
+
+  await appendFile(path.join(buildDirectory, "icons.json"), assetIconsJSON);
+  console.log(`━━━━━━━━━━━━ Created icons.json ━━━━━━━━━━━━\n`);
+
+  // Create assets.json file and save it under /build directory
+  console.log(`┏━━━ Creating assets.json ━━━━━━━━━━━━`);
+  const assets = Object.fromEntries(ASSET_MAP);
+  const assetsJSON = JSON.stringify(assets, null, "\t");
+
+  await appendFile(path.join(buildDirectory, "assets.json"), assetsJSON);
+
+  console.log(`━━━━━━━━━━━━ Finished ━━━━━━━━━━━━`);
 } catch (error) {
   console.error(error);
   throw error;
