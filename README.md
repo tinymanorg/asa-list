@@ -1,12 +1,18 @@
 ![asa-list](https://user-images.githubusercontent.com/64005663/151940730-7aec2e05-c4f5-42af-ada3-b35c614826fd.png)
 
-# Tinyman - Algorand Standard Assets List
+# Tinyman - ASA List
 
 We are collecting all the icons of projects built on Algorand in one place where everyone can easily access. In this public repository you can check and add the icons of Algorand Standard Assets. Also you can use dynamic link to use these icons on your projects. This repository is being developed with the contributions of ASA makers.
 
-If you have any problems, you can [join Tinyman Discord](https://discord.com/invite/wvHnAdmEv6) and ask your questions about the project in #asa-list channel.
+We have also integrated the ASA List to Pera Verification System so that missing icons can be retrieved from there. Thanks to the integration, ASA holders no longer need to apply to the Pera Verification System and ASA List separately to display their token’s icons on the platforms that are using the ASA List. Here is the workflow:
+- 1st, it creates a base list using the [ASA List Public Repo](https://github.com/tinymanorg/asa-list/tree/main/assets)
+- 2nd, it adds assets missing from the list but [Verified/Trusted by Pera](https://explorer.perawallet.app/asa-verification/verified-assets/) and whose icon is available.
+    - This event is scheduled and will take place every midnight at UTC.
+    - You can see the logic and running workflows here: https://github.com/tinymanorg/asa-list/actions
+ 
+Tinyman team continues to maintain the ASA List repo but we will update it less frequently after this integration. Therefore, we highly recommend that all ASA creators apply for the Pera Verification System so that their icons can be listed quickly.
 
-&nbsp;
+Please follow the requirements listed below for uploading an icon for your ASA. If you have any problems, you can [join Tinyman Discord](https://discord.com/invite/wvHnAdmEv6) and ask your questions about the project in #asa-list channel.
 
 ## Adding your icon
 

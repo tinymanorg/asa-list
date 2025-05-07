@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/tinymanorg/asa-list#readme",
   "devDependencies": {
-    "algosdk": "^1.13.1"
+    "algosdk": "^2.2.0"
   }
 }
