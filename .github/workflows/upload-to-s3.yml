@@ -5,8 +5,8 @@ on:
     branches:
       - main
   schedule:
-    # Schedule to run at midnight UTC
-    - cron: '0 0 * * *'
+    # Schedule to run at every 3 hours
+    - cron: '0 0/3 * * *'
 
 permissions:
   id-token: write # This is required for requesting the JWT

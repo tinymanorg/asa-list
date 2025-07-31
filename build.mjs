@@ -84,7 +84,7 @@ try {
 
   const assetData = await Promise.all(assetIDs.map(getAssetInformationById));
 
-  assetData.forEach((asset) => {
+  assetData.filter((asset) => asset.id).forEach((asset) => {
     ASSET_MAP.set(asset.id, asset);
     ASSET_ICON_MAP.set(asset.id, asset.logo.png);
   });
@@ -213,6 +213,6 @@ async function getAssetInformationById(id) {
     };
   } catch (error) {
     console.error(error);
-    throw new Error(`Failed to fetch information for asset #${id}`);
+    return {};
   }
 }
