@@ -1,0 +1,18 @@
+{
+  "name": "RenewBit Proyecto RBT-001",
+  "description": "Este proyecto corresponde a un sistema de generación fotovoltaico residencial ubicado en Villa Alemana, diseñado para inyectar excedentes a la red eléctrica y generar retornos reales para los inversionistas. Se encuentra actualmente en desarrollo, con proyección de inicio de operación a partir del 03/03/2025. Al invertir, estarás adquiriendo tokens que representan propiedad fraccionada sobre este activo de energía renovable. Cada token otorga derecho a una participación proporcional en las ganancias generadas, las cuales se distribuyen de forma diaria con una rentabilidad anual estimada del 7%. Puedes retirar tus ganancias o reinvertirlas dentro de la misma plataforma. Esta inversión combina impacto ambiental positivo con retornos financieros concretos, permitiendo que cualquier persona participe activamente en la transición energética de forma sencilla y segura. La finalización del proyecto está programada para el 03/01/2030, momento en el que se realizará la quema de tokens y se otorgará un bono de permanencia del 10% a quienes hayan mantenido su inversión por al menos 3,5 años. Toda la documentación y seguimiento de tu inversión estará disponible desde tu perfil de RenewBit.",
+  "image": "logo.png",
+  "image_mimetype": "image/png",
+  "external_url": "https://renewbit.cl/token/rbt001/index.html",
+  "properties": {
+    "asset_id": 0,
+    "symbol": "RBT-001",
+    "company": "RenewBit SpA",
+    "contract_pdf": "https://renewbit.cl/token/rbt001/contrato_mutuo.pdf",
+    "issued_by": "Mauricio Gutiérrez – RUT 15.458.560-5",
+    "location": "Villa Alemana, Chile"
+  },
+  "decimals": 0,
+  "total": 44,
+  "standard": "arc3"
+}
