@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#2A2420"/>
+      <stop offset="100%" style="stop-color:#1C1C1C"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D4A853"/>
+      <stop offset="50%" style="stop-color:#8B7355"/>
+      <stop offset="100%" style="stop-color:#C4A882"/>
+    </linearGradient>
+    <linearGradient id="silver" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#9A9A9A"/>
+      <stop offset="35%" style="stop-color:#E8E8E8"/>
+      <stop offset="50%" style="stop-color:#F8F8F8"/>
+      <stop offset="65%" style="stop-color:#E8E8E8"/>
+      <stop offset="100%" style="stop-color:#9A9A9A"/>
+    </linearGradient>
+    <linearGradient id="bronze" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#CD7F32"/>
+      <stop offset="40%" style="stop-color:#E8A958"/>
+      <stop offset="60%" style="stop-color:#F0C070"/>
+      <stop offset="100%" style="stop-color:#A0621E"/>
+    </linearGradient>
+    <radialGradient id="pommel" cx="38%" cy="35%" r="55%">
+      <stop offset="0%" style="stop-color:#F0C878"/>
+      <stop offset="50%" style="stop-color:#CD7F32"/>
+      <stop offset="100%" style="stop-color:#7A4A10"/>
+    </radialGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="sglow" x="-30%" y="-10%" width="160%" height="120%">
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="bglow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="256" height="256" fill="url(#bg)"/>
+
+  <!-- ── TEMPLE ─────────────────────────────────────── -->
+  <!-- Centre x=128, spans x=18 to x=238               -->
+  <!-- Pediment apex (128,30), base y=78                -->
+  <polygon points="128,30 238,78 18,78"
+           fill="url(#gold)" opacity="0.95" filter="url(#glow)"/>
+  <polygon points="128,40 226,78 30,78"
+           fill="#1C1C1C" opacity="0.28"/>
+
+  <!-- Entablature -->
+  <rect x="14" y="78" width="228" height="10" fill="url(#gold)" opacity="0.95"/>
+  <rect x="14" y="86" width="228" height="1.5" fill="#1C1C1C" opacity="0.2"/>
+
+  <!-- 4 Columns — symmetric around x=128             -->
+  <!-- Col2 ends x=109, Col3 starts x=147             -->
+  <!-- Gap: 109 to 147 = 38px, centre=128 ✓           -->
+  <!-- Col1:x=22 w=18  Col2:x=91 w=18                 -->
+  <!-- Col3:x=147 w=18  Col4:x=216 w=18               -->
+  <rect x="22"  y="88" width="18" height="88" rx="1.5" fill="url(#gold)" opacity="0.92"/>
+  <rect x="91"  y="88" width="18" height="88" rx="1.5" fill="url(#gold)" opacity="0.92"/>
+  <rect x="147" y="88" width="18" height="88" rx="1.5" fill="url(#gold)" opacity="0.92"/>
+  <rect x="216" y="88" width="18" height="88" rx="1.5" fill="url(#gold)" opacity="0.92"/>
+
+  <!-- Column capitals -->
+  <rect x="18"  y="86" width="26" height="4" rx="1" fill="url(#gold)" opacity="0.98"/>
+  <rect x="87"  y="86" width="26" height="4" rx="1" fill="url(#gold)" opacity="0.98"/>
+  <rect x="143" y="86" width="26" height="4" rx="1" fill="url(#gold)" opacity="0.98"/>
+  <rect x="212" y="86" width="26" height="4" rx="1" fill="url(#gold)" opacity="0.98"/>
+
+  <!-- Column bases -->
+  <rect x="18"  y="173" width="26" height="4" rx="1" fill="url(#gold)" opacity="0.98"/>
+  <rect x="87"  y="173" width="26" height="4" rx="1" fill="url(#gold)" opacity="0.98"/>
+  <rect x="143" y="173" width="26" height="4" rx="1" fill="url(#gold)" opacity="0.98"/>
+  <rect x="212" y="173" width="26" height="4" rx="1" fill="url(#gold)" opacity="0.98"/>
+
+  <!-- Steps -->
+  <rect x="14"  y="177" width="228" height="8"  rx="1" fill="url(#gold)" opacity="0.95"/>
+  <rect x="8"   y="185" width="240" height="7"  rx="1" fill="url(#gold)" opacity="0.85"/>
+  <rect x="2"   y="192" width="252" height="7"  rx="1" fill="url(#gold)" opacity="0.75"/>
+
+  <!-- ── SWORD centred at x=128 ──────────────────────── -->
+  <!-- Pommel cy=56 r=10, bottom=66                      -->
+  <!-- Grip y=66 to y=84                                 -->
+  <!-- Crossguard y=84 to y=92                           -->
+  <!-- Blade y=92 to y=196                               -->
+
+  <!-- Blade -->
+  <polygon points="128,196 122,156 122,92 134,92 134,156"
+           fill="url(#silver)" filter="url(#sglow)" opacity="0.97"/>
+  <line x1="128" y1="92" x2="128" y2="190"
+        stroke="white" stroke-width="0.8" opacity="0.35"/>
+
+  <!-- Crossguard -->
+  <rect x="112" y="84" width="32" height="9" rx="3"
+        fill="url(#bronze)" filter="url(#glow)" opacity="1"/>
+  <circle cx="112" cy="88.5" r="6" fill="url(#pommel)" opacity="1"/>
+  <circle cx="144" cy="88.5" r="6" fill="url(#pommel)" opacity="1"/>
+
+  <!-- Grip -->
+  <rect x="123" y="66" width="10" height="20" rx="2"
+        fill="url(#bronze)" opacity="0.88"/>
+  <line x1="123" y1="71" x2="133" y2="71" stroke="#1C1C1C" stroke-width="1" opacity="0.35"/>
+  <line x1="123" y1="76" x2="133" y2="76" stroke="#1C1C1C" stroke-width="1" opacity="0.35"/>
+  <line x1="123" y1="81" x2="133" y2="81" stroke="#1C1C1C" stroke-width="1" opacity="0.35"/>
+
+  <!-- Pommel — bottom at y=66, centre y=56, r=10 -->
+  <circle cx="128" cy="56" r="10"
+          fill="url(#pommel)" filter="url(#bglow)" opacity="1"/>
+  <circle cx="123" cy="51" r="3" fill="white" opacity="0.18"/>
+  <circle cx="128" cy="56" r="6" fill="none"
+          stroke="#7A4A10" stroke-width="0.8" opacity="0.4"/>
+
+</svg>
